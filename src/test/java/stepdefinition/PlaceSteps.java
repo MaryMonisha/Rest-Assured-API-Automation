@@ -46,6 +46,7 @@ public class PlaceSteps extends BaseURI{
     response =Request.when().post("maps/api/place/add/json")
                 .then().spec(commonresponse).extract().response();
         System.out.println("after  response");
+        System.out.println("added to git");
 
     }
     @Then("^I get a API response with a status code (\\d+)$")
